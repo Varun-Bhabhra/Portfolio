@@ -29,11 +29,11 @@ module.exports = {
         "body-back15": "url('/img/svgs/background.svg')",
         "body-back16": "url('/img/svgs/squares.svg')",
         "body-back17": "url('/img/svgs/random.svg')",
-        "body-back18": "url('/img/stockImages/myCode.png')",
         "body-back19": "url('/img/myImg/meback.jpg')",
         "body-back20": "url('/img/myImg/meback2.jpg')",
         "body-back21": "url('/img/myImg/meback3.jpg')",
-        "body-back22": "url('/img/myImg/meback4.jpg')"
+        "body-back22": "url('/img/myImg/meback4.jpg')",
+        "body-back23": "url('/img/myImg/meback3.jpg')"
       }
     },
   },
