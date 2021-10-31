@@ -11,6 +11,22 @@ const images = {
   tripsy_4: '../../img/projectImg/Tripsy - 4.png',
 }
 
+const projectName = {
+  crome_card: 'Crome Identity Card',
+  blog_page: 'Blog',
+  landing_page: 'Bookmarked',
+  pricing_panel: 'Pricing Panel',
+  tripsy: 'Tripsy'
+};
+
+const description = {
+  crome_card: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
+  blog_page: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
+  landing_page: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
+  pricing_panel: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
+  tripsy_1: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
+}
+
 // Creat Variables
 for (let i = 0; i <= 7; i++) {
   let article = document.createElement('ARTICLE');
@@ -36,11 +52,6 @@ for (let i = 0; i <= 7; i++) {
   } else if (i === 7) {
     image.setAttribute('src', images.tripsy_4);
   }
-  // else if (i === 8) {
-  //   image.setAttribute('src', images.tripsy_1);    
-  // } else if (i === 9) {
-  //   image.setAttribute('src', images.tripsy_1);    
-  // }
 
   let aside = document.createElement('ASIDE');
   aside.setAttribute('class', 'my-3 text-2xl font-bold px-3');
@@ -48,7 +59,7 @@ for (let i = 0; i <= 7; i++) {
 
   let para = document.createElement('P');
   para.setAttribute('class', 'p-3 text-sm');
-  para.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel et.';
+  para.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc';
 
   cards.appendChild(article);
   article.appendChild(image);
