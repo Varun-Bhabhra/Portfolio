@@ -19,7 +19,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        roboto: ['Roboto']
+        roboto: ['Roboto'],
+        cinzel: ['Cinzel Decorative']
       },
       backgroundImage: {
         "body-back14": "url('/Portfolio/img/svgs/projectsBg.jpg')",
@@ -30,6 +31,7 @@ module.exports = {
         "body-back20": "url('/Portfolio/img/myImg/meback2.jpg')",
         "body-back21": "url('/Portfolio/img/myImg/meback3.jpg')",
         "body-back22": "url('/Portfolio/img/myImg/meback4.jpg')",
+        "body-back23": "url('/Portfolio/img/myImg/meback5.jpg')",
       }
     },
   },

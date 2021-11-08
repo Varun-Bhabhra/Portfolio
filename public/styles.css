@@ -18198,6 +18198,10 @@ video {
   background-image: url('/Portfolio/img/myImg/meback4.jpg');
 }
 
+.bg-body-back23{
+  background-image: url('/Portfolio/img/myImg/meback5.jpg');
+}
+
 .from-transparent{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -23064,6 +23068,10 @@ video {
 
 .font-roboto{
   font-family: Roboto;
+}
+
+.font-cinzel{
+  font-family: Cinzel Decorative;
 }
 
 .text-xs{
@@ -51049,6 +51057,10 @@ video {
     background-image: url('/Portfolio/img/myImg/meback4.jpg');
   }
 
+  .sm\:bg-body-back23{
+    background-image: url('/Portfolio/img/myImg/meback5.jpg');
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -55915,6 +55927,10 @@ video {
 
   .sm\:font-roboto{
     font-family: Roboto;
+  }
+
+  .sm\:font-cinzel{
+    font-family: Cinzel Decorative;
   }
 
   .sm\:text-xs{
@@ -83520,6 +83536,10 @@ video {
     background-image: url('/Portfolio/img/myImg/meback4.jpg');
   }
 
+  .md\:bg-body-back23{
+    background-image: url('/Portfolio/img/myImg/meback5.jpg');
+  }
+
   .md\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -88386,6 +88406,10 @@ video {
 
   .md\:font-roboto{
     font-family: Roboto;
+  }
+
+  .md\:font-cinzel{
+    font-family: Cinzel Decorative;
   }
 
   .md\:text-xs{
@@ -115991,6 +116015,10 @@ video {
     background-image: url('/Portfolio/img/myImg/meback4.jpg');
   }
 
+  .lg\:bg-body-back23{
+    background-image: url('/Portfolio/img/myImg/meback5.jpg');
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -120857,6 +120885,10 @@ video {
 
   .lg\:font-roboto{
     font-family: Roboto;
+  }
+
+  .lg\:font-cinzel{
+    font-family: Cinzel Decorative;
   }
 
   .lg\:text-xs{
@@ -148462,6 +148494,10 @@ video {
     background-image: url('/Portfolio/img/myImg/meback4.jpg');
   }
 
+  .xl\:bg-body-back23{
+    background-image: url('/Portfolio/img/myImg/meback5.jpg');
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -153328,6 +153364,10 @@ video {
 
   .xl\:font-roboto{
     font-family: Roboto;
+  }
+
+  .xl\:font-cinzel{
+    font-family: Cinzel Decorative;
   }
 
   .xl\:text-xs{
@@ -180933,6 +180973,10 @@ video {
     background-image: url('/Portfolio/img/myImg/meback4.jpg');
   }
 
+  .\32xl\:bg-body-back23{
+    background-image: url('/Portfolio/img/myImg/meback5.jpg');
+  }
+
   .\32xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -185799,6 +185843,10 @@ video {
 
   .\32xl\:font-roboto{
     font-family: Roboto;
+  }
+
+  .\32xl\:font-cinzel{
+    font-family: Cinzel Decorative;
   }
 
   .\32xl\:text-xs{

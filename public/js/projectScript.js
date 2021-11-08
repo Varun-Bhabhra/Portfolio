@@ -4,7 +4,7 @@ const images = {
   blog_page: '../../img/projectImg/Blog page (Front).png',
   landing_page1: '../../img/projectImg/Landing Page - 1.png',
   landing_page2: '../../img/projectImg/Landing Page - 2.png',
-  crome_card: '../../img/projectImg/Chrome Card 2.png',
+  chrome_card: '../../img/projectImg/Chrome Card 2.png',
   tripsy_1: '../../img/projectImg/Tripsy - 1.png',
   tripsy_2: '../../img/projectImg/Tripsy - 2.png',
   tripsy_3: '../../img/projectImg/Tripsy - 3.png',
@@ -12,7 +12,7 @@ const images = {
 }
 
 const projectName = {
-  crome_card: 'Crome Identity Card',
+  chrome_card: 'Chrome Identity Card',
   blog_page: 'Blog',
   landing_page: 'Bookmarked',
   pricing_panel: 'Pricing Panel',
@@ -20,11 +20,11 @@ const projectName = {
 };
 
 const description = {
-  crome_card: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
-  blog_page: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
-  landing_page: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
-  pricing_panel: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
-  tripsy_1: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc',
+  chrome_card: 'Chrome Identity Card was my first ever project which does nothing, just a replica of google chrome admin card',
+  blog_page: 'Blog Page is a',
+  landing_page: 'Bookmarked is a landing page for some bestseller books which uses CSS Grid',
+  pricing_panel: 'Pricing Panel is a website ',
+  tripsy_1: 'Tripsy is a user interactive Weather App, which asks what your current and destination location is ',
 }
 
 // Creat Variables
