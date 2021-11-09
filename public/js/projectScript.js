@@ -1,14 +1,17 @@
 const cards = document.querySelector('#cards');
 const images = {
   pricing_panel: '../../img/projectImg/Pricing Panel.png',
-  blog_page: '../../img/projectImg/Blog page (Front).png',
-  landing_page1: '../../img/projectImg/Landing Page - 1.png',
-  landing_page2: '../../img/projectImg/Landing Page - 2.png',
   chrome_card: '../../img/projectImg/Chrome Card 2.png',
-  tripsy_1: '../../img/projectImg/Tripsy - 1.png',
-  tripsy_2: '../../img/projectImg/Tripsy - 2.png',
-  tripsy_3: '../../img/projectImg/Tripsy - 3.png',
-  tripsy_4: '../../img/projectImg/Tripsy - 4.png',
+  blog_page: '../../img/projectImg/Blog page (Front).png',
+  landing_page2: '../../img/projectImg/Landing Page - 2.png',
+  tripsy: '../../img/projectImg/tripsy.png',
+  colorGame: '../../img/projectImg/colorGuessGame.png',
+  expandingCards: '../../img/projectImg/expandingCards.png',
+  museumOfCandy: '../../img/projectImg/museumOfCandy.png',
+  photoGallery: '../../img/projectImg/photoGallery.png',
+  purrfectMatch: '../../img/projectImg/purrfectMatch.png',
+  yelpcamp: '../../img/projectImg/yelpcamp.jpg',
+  cardComponent: '../../img/projectImg/cardComponent.png'
 }
 
 const projectName = {
@@ -16,21 +19,35 @@ const projectName = {
   blog_page: 'Blog',
   landing_page: 'Bookmarked',
   pricing_panel: 'Pricing Panel',
-  tripsy: 'Tripsy'
+  tripsy: 'Tripsy',
+  colorGame: 'Guess the Color',
+  expandingCards: 'Expanding Cards',
+  museumOfCandy: 'Museum Of Candy',
+  photoGallery: 'Photo Gallery',
+  purrfectMatch: 'Purrfect Match',
+  yelpcamp: 'Yelpcamp',
+  cardComponent: 'Card Component'
 };
 
 const description = {
   chrome_card: 'Chrome Identity Card was my first ever project which does nothing, just a replica of google chrome admin card',
-  blog_page: 'Blog Page is a',
+  blog_page: 'this is a blog page ',
   landing_page: 'Bookmarked is a landing page for some bestseller books which uses CSS Grid',
   pricing_panel: 'Pricing Panel is a website ',
-  tripsy_1: 'Tripsy is a user interactive Weather App, which asks what your current and destination location is ',
+  tripsy: 'Tripsy is a user interactive Weather App, which asks what your current and destination location is ',
+  colorGame: 'hey i am color game',
+  expandingCards: 'hey I am expanding cards',
+  museumOfCandy: 'Hey i am museim of candy',
+  photoGallery: 'hey i am a photo gallery',
+  purrfectMatch: 'hey i am a landing page for cats',
+  yelpcamp: 'hey i am the biggest ptoject bitch yay!',
+  cardComponent: 'Hey I am a card Component'
 }
 
 // Creat Variables
-for (let i = 0; i <= 7; i++) {
+for (let i = 0; i <= 11; i++) {
   let article = document.createElement('ARTICLE');
-  article.setAttribute('class', 'mainCard rounded-lg shadow-xl bg-body-bac17 bg-cover')
+  article.setAttribute('class', 'mainCard rounded-lg shadow-xl')
 
   let image = document.createElement('IMG');
   image.setAttribute('class', 'w-full rounded-tr-lg rounded-tl-lg self-center');
@@ -38,28 +55,88 @@ for (let i = 0; i <= 7; i++) {
   if (i === 0) {
     image.setAttribute('src', images.blog_page);
   } else if (i === 1) {
-    image.setAttribute('src', images.landing_page1);
-  } else if (i === 2) {
     image.setAttribute('src', images.landing_page2);
-  } else if (i === 3) {
+  } else if (i === 2) {
     image.setAttribute('src', images.pricing_panel);
+  } else if (i === 3) {
+    image.setAttribute('src', images.expandingCards);
   } else if (i === 4) {
-    image.setAttribute('src', images.tripsy_1);
+    image.setAttribute('src', images.photoGallery);
   } else if (i === 5) {
-    image.setAttribute('src', images.tripsy_2);
+    image.setAttribute('src', images.colorGame);
   } else if (i === 6) {
-    image.setAttribute('src', images.tripsy_3);
+    image.setAttribute('src', images.museumOfCandy);
   } else if (i === 7) {
-    image.setAttribute('src', images.tripsy_4);
+    image.setAttribute('src', images.yelpcamp);
+  } else if (i === 8) {
+    image.setAttribute('src', images.purrfectMatch);
+  } else if (i === 9) {
+    image.setAttribute('src', images.tripsy);
+  } else if (i === 10) {
+    image.setAttribute('src', images.chrome_card);
+  } else if (i === 11) {
+    image.setAttribute('src', images.cardComponent);
   }
 
   let aside = document.createElement('ASIDE');
   aside.setAttribute('class', 'my-3 text-2xl font-bold px-3');
-  aside.innerText = 'Pricing Panel'
+
+  if (i === 0) {
+    aside.innerText = projectName.blog_page;
+  } else if (i === 1) {
+    aside.innerText = projectName.landing_page
+  } else if (i === 2) {
+    aside.innerText = projectName.pricing_panel;
+  } else if (i === 3) {
+    aside.innerText = projectName.expandingCards;
+  } else if (i === 4) {
+    aside.innerText = projectName.photoGallery;
+  } else if (i === 5) {
+    aside.innerText = projectName.colorGame;
+  } else if (i === 6) {
+    aside.innerText = projectName.museumOfCandy;
+  } else if (i === 7) {
+    aside.innerText = projectName.yelpcamp;
+  } else if (i === 8) {
+    aside.innerText = projectName.purrfectMatch;
+  } else if (i === 9) {
+    aside.innerText = projectName.tripsy;
+  } else if (i === 10) {
+    aside.innerText = projectName.chrome_card;
+  } else if (i === 11) {
+    aside.innerText = projectName.cardComponent;
+  }
+
+  // aside.innerText = 'Pricing Panel'
 
   let para = document.createElement('P');
   para.setAttribute('class', 'p-3 text-sm');
-  para.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum aut est delectus, at placeat labore dolorem saepe rerum temporibus veniam nemo maiores possimus deleniti ex tempora similique vel etc';
+
+  if (i === 0) {
+    para.innerText = description.blog_page;
+  } else if (i === 1) {
+    para.innerText = description.landing_page
+  } else if (i === 2) {
+    para.innerText = description.pricing_panel;
+  } else if (i === 3) {
+    para.innerText = description.expandingCards;
+  } else if (i === 4) {
+    para.innerText = description.photoGallery;
+  } else if (i === 5) {
+    para.innerText = description.colorGame;
+  } else if (i === 6) {
+    para.innerText = description.museumOfCandy;
+  } else if (i === 7) {
+    para.innerText = description.yelpcamp;
+  } else if (i === 8) {
+    para.innerText = description.purrfectMatch;
+  } else if (i === 9) {
+    para.innerText = description.tripsy;
+  } else if (i === 10) {
+    para.innerText = description.chrome_card;
+  } else if (i === 11) {
+    para.innerText = description.cardComponent;
+  }
 
   cards.appendChild(article);
   article.appendChild(image);

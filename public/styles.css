@@ -18166,6 +18166,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-body-back13{
+  background-image: url('/Portfolio/img/svgs/confetti.jpg');
+}
+
 .bg-body-back14{
   background-image: url('/Portfolio/img/svgs/projectsBg.jpg');
 }
@@ -51025,6 +51029,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-body-back13{
+    background-image: url('/Portfolio/img/svgs/confetti.jpg');
+  }
+
   .sm\:bg-body-back14{
     background-image: url('/Portfolio/img/svgs/projectsBg.jpg');
   }
@@ -83502,6 +83510,10 @@ video {
 
   .md\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-body-back13{
+    background-image: url('/Portfolio/img/svgs/confetti.jpg');
   }
 
   .md\:bg-body-back14{
@@ -115983,6 +115995,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-body-back13{
+    background-image: url('/Portfolio/img/svgs/confetti.jpg');
+  }
+
   .lg\:bg-body-back14{
     background-image: url('/Portfolio/img/svgs/projectsBg.jpg');
   }
@@ -148462,6 +148478,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-body-back13{
+    background-image: url('/Portfolio/img/svgs/confetti.jpg');
+  }
+
   .xl\:bg-body-back14{
     background-image: url('/Portfolio/img/svgs/projectsBg.jpg');
   }
@@ -180939,6 +180959,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-body-back13{
+    background-image: url('/Portfolio/img/svgs/confetti.jpg');
   }
 
   .\32xl\:bg-body-back14{

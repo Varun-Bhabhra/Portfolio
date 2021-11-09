@@ -23,6 +23,7 @@ module.exports = {
         cinzel: ['Cinzel Decorative']
       },
       backgroundImage: {
+        "body-back13": "url('/Portfolio/img/svgs/confetti.jpg')",
         "body-back14": "url('/Portfolio/img/svgs/projectsBg.jpg')",
         "body-back15": "url('/Portfolio/img/svgs/background.svg')",
         "body-back16": "url('/Portfolio/img/svgs/squares.svg')",
