@@ -14,8 +14,8 @@ module.exports = {
           orange: '#f6a541'
         },
         gradiant: {
-          dark: '#11998E ',
-          light: '#38EF7D'
+          dark: '#93A5CF',
+          light: '#E4EfE9'
         }
       },
       fontFamily: {
@@ -23,7 +23,7 @@ module.exports = {
         cinzel: ['Cinzel Decorative']
       },
       backgroundImage: {
-        "body-back13": "url('/Portfolio/img/svgs/confetti.jpg')",
+        "body-back13": "url('/Portfolio/img/svgs/wall.jpg')",
         "body-back14": "url('/Portfolio/img/svgs/projectsBg.jpg')",
         "body-back15": "url('/Portfolio/img/svgs/background.svg')",
         "body-back16": "url('/Portfolio/img/svgs/squares.svg')",

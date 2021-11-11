@@ -15,8 +15,8 @@ const images = {
 }
 
 const projectName = {
-  chrome_card: 'Chrome Identity Card',
-  blog_page: 'Blog',
+  chrome_card: 'Chrome Admin Card',
+  blog_page: 'Blog Page',
   landing_page: 'Bookmarked',
   pricing_panel: 'Pricing Panel',
   tripsy: 'Tripsy',
@@ -31,14 +31,14 @@ const projectName = {
 
 const description = {
   chrome_card: 'Chrome Identity Card was my first ever project which does nothing, just a replica of google chrome admin card',
-  blog_page: 'this is a blog page ',
-  landing_page: 'Bookmarked is a landing page for some bestseller books which uses CSS Grid',
-  pricing_panel: 'Pricing Panel is a website ',
+  blog_page: 'This blog page has ',
+  landing_page: 'Bookmarked is a landing page for some bestseller books with there behind the book descriptions.',
+  pricing_panel: 'Pricing Panel is a ',
   tripsy: 'Tripsy is a user interactive Weather App, which asks what your current and destination location is ',
   colorGame: 'hey i am color game',
   expandingCards: 'hey I am expanding cards',
   museumOfCandy: 'Hey i am museim of candy',
-  photoGallery: 'hey i am a photo gallery',
+  photoGallery: 'This photo gallery',
   purrfectMatch: 'hey i am a landing page for cats',
   yelpcamp: 'hey i am the biggest ptoject bitch yay!',
   cardComponent: 'Hey I am a card Component'
