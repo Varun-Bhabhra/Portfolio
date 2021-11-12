@@ -25,9 +25,7 @@ module.exports = {
       backgroundImage: {
         "body-back13": "url('/Portfolio/img/svgs/wall.jpg')",
         "body-back14": "url('/Portfolio/img/svgs/projectsBg.jpg')",
-        "body-back15": "url('/Portfolio/img/svgs/background.svg')",
-        "body-back16": "url('/Portfolio/img/svgs/squares.svg')",
-        "body-back17": "url('/Portfolio/img/svgs/random.svg')",
+        "body-back16": "url('/Portfolio/img/svgs/waves.svg')",
         "body-back19": "url('/Portfolio/img/myImg/meback.jpg')",
         "body-back20": "url('/Portfolio/img/myImg/meback2.jpg')",
         "body-back21": "url('/Portfolio/img/myImg/meback3.jpg')",

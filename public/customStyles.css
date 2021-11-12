@@ -56,19 +56,24 @@ html{
   }
 }
 
-#hello{
+#container{
   animation: fadeInProjects 2s ease-in-out;
 }
 
 @keyframes fadeInProjects {
   0%{
     opacity: 0;
-    transform: translateX(50rem);
+    transform: translateY(50rem);
+  }
+
+  60%{
+    opacity: 6;
+    transform: translateY(-3rem);
   }
   
   100%{
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 

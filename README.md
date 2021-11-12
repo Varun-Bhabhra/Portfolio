@@ -1,3 +1,6 @@
+Tailwind Build Command: 
+  #npm run build-tailwind
+
 Colors in use:
 1. #edeef5 (white)
 2. #252324 (dark gary)
@@ -7,4 +10,3 @@ Colors in use:
 
 Font in use:
   1. Roboto 
-  2. Cinzel
