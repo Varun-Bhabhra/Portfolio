@@ -30,18 +30,18 @@ const projectName = {
 };
 
 const description = {
-  chrome_card: 'Chrome Identity Card was my first ever project which does nothing, just a replica of google chrome admin card',
-  blog_page: 'This blog page has ',
+  chrome_card: 'Chrome Identity Card was my first ever project which does nothing, just a replica of google chrome admin card.',
+  blog_page: 'This blog page was a task from Udacity, which has a bunch of fake links and some Lorem ipsum paragraphs, which also has a second page, not shown above.',
   landing_page: 'Bookmarked is a landing page for some bestseller books with there behind the book descriptions.',
-  pricing_panel: 'Pricing Panel is a ',
-  tripsy: 'Tripsy is a user interactive Weather App, which asks what your current and destination location is ',
-  colorGame: 'hey i am color game',
-  expandingCards: 'hey I am expanding cards',
-  museumOfCandy: 'Hey i am museim of candy',
-  photoGallery: 'This photo gallery',
-  purrfectMatch: 'hey i am a landing page for cats',
-  yelpcamp: 'hey i am the biggest ptoject bitch yay!',
-  cardComponent: 'Hey I am a card Component'
+  pricing_panel: 'This Pricing Panel was a task from \'The Web Developement Bootcamp 2021 - Colt Steele\'.',
+  tripsy: 'Tripsy was one of my largest project, which involved fetching data from 3 different API\'s and showing them to the client as requested. A user interactive Weather App, which asks what your current and destination location and returns the weather forcast of the coming week.',
+  colorGame: 'Color Guessing Game was a Code Along Project from \'The Web Developement Bootcamp 2021 - Colt Steele\'.',
+  expandingCards: 'Expanding Cards was a raw CSS practice webpage which had a theme of a Video Game.',
+  museumOfCandy: 'Museum Of Candy was a Code Along Project from \'The Web Developement Bootcamp 2021 - Colt Steele\'.',
+  photoGallery: 'This photo gallery was Challenge form \'The Web Developement Bootcamp 2021 - Colt Steele\'.',
+  purrfectMatch: 'Purrfect Match was just a Landing Page which takes you nowhere inspired from some webpages.',
+  yelpcamp: 'Yelpcamp was the my biggest project ever, because it used countless amount of technology, multiple API\'s and a database named MongoDB.',
+  cardComponent: 'This Card Component was one of the challenge from Frontend Mentor, which has tons of tasks for Frontend Developers.'
 }
 
 // Creat Variables
