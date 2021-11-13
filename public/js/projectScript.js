@@ -40,7 +40,7 @@ const description = {
   museumOfCandy: 'Museum Of Candy was a Code Along Project from \'The Web Developement Bootcamp 2021 - Colt Steele\'.',
   photoGallery: 'This photo gallery was Challenge form \'The Web Developement Bootcamp 2021 - Colt Steele\'.',
   purrfectMatch: 'Purrfect Match was just a Landing Page which takes you nowhere inspired from some webpages.',
-  yelpcamp: 'Yelpcamp was the my biggest project ever, because it used countless amount of technology, multiple API\'s and a database named MongoDB.',
+  yelpcamp: 'Yelpcamp was my biggest project ever, because it used countless amount of technology, multiple API\'s and a database named MongoDB.',
   cardComponent: 'This Card Component was one of the challenge from Frontend Mentor, which has tons of tasks for Frontend Developers.'
 }
 
